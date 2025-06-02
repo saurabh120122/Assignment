@@ -1,4 +1,16 @@
 # Assignment
+Q1.
+Key Idea:
+We use recursive backtracking to build the solution one row at a time.
+Steps:
+1. Try placing a queen in each column of the current row.
+2. For each valid position:
+->Place the queen.
+->Recurse to the next row.
+->Backtrack after exploring.
+3. If a full valid configuration is reached, store or print it.
+4. For checking valid position track column, left-diagonal, and right-diagonal if there already a queen.
+
 Q2.
 Key Idea:
 In a Directed Acyclic Graph (DAG), all nodes can be sorted topologically. If some nodes remain unprocessed (due to cycles), it indicates a circular dependency.
